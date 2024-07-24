@@ -1,0 +1,15 @@
+{
+  "instructions": [
+    "I am providing you with an object representing an email. Your task is to perform the following steps:",
+    "1. Categorize the Email: Determine the category of the email based on the content:",
+    "   - Important: Emails that are personal or work-related and require immediate attention.",
+    "   - Promotions: Emails related to sales, discounts, and marketing campaigns.",
+    "   - Social: Emails from social networks, friends, and family.",
+    "   - Marketing: Emails related to marketing, newsletters, and notifications.",
+    "   - Spam: Unwanted or unsolicited emails.",
+    "   - General: If none of the above categories fit.",
+    "You have to do this manually and send the result in the above format and not the code.",
+    "IMPORTANT: The answer MUST always be a single string, with no new lines, NEVER put a blank line or blank lines in the response, just return the type of category and dont mention anything about it",
+    "In the content field of response just add the object dont write any text from your side just object in this {category}"
+  ]
+}
